@@ -1,0 +1,235 @@
+{
+  "properties":[
+      {
+        "id": 1,
+        "type": "rent",
+        "title": "Cozy Apartment",
+        "description": "A cozy 1-bedroom apartment in the heart of the city.",
+        "price": 1200,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFootage": 650,
+        "imageUrl": "images/img1.jpg"
+      },
+      {
+        "id": 2,
+        "type": "lease",
+        "title": "Luxury Villa",
+        "description": "A luxurious 4-bedroom villa with a private pool.",
+        "price": 5000,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "squareFootage": 3200,
+        "images": "/images/property2.jpg"
+      },
+      {
+        "id": 3,
+        "type": "sale",
+        "title": "Modern Townhouse",
+        "description": "A beautifully designed 3-bedroom townhouse with a private backyard.",
+        "price": 6700,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFootage": 1800,
+        "images": "/images/property3.jpg"
+      },
+      {
+        "id": 4,
+        "type": "rent",
+        "title": "Downtown Loft",
+        "description": "A stylish loft apartment in the heart of downtown.",
+        "price": 1800,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFootage": 1100,
+        "images": "/images/property4.jpg"
+      },
+      {
+        "id": 5,
+        "type": "lease",
+        "title": "Beachfront House",
+        "description": "A stunning 5-bedroom house right on the beach.",
+        "price": 7500,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "squareFootage": 4000,
+        "images": "/images/property5.jpg"
+      },
+      {
+        "id": 6,
+        "type": "sale",
+        "title": "Rustic Cabin",
+        "description": "A charming 2-bedroom cabin in the woods.",
+        "price": 5500,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "squareFootage": 1200,
+        "images": "/images/property6.jpg"
+      },
+      {
+        "id": 7,
+        "type": "rent",
+        "title": "City View Condo",
+        "description": "A modern 3-bedroom condo with panoramic city views.",
+        "price": 2800,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFootage": 1600,
+        "images": "/images/property7.jpg"
+      },
+      {
+        "id": 8,
+        "type": "lease",
+        "title": "Mountain Retreat",
+        "description": "A serene 4-bedroom retreat nestled in the mountains.",
+        "price": 6000,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "squareFootage": 3000,
+        "images": "/images/property8.jpg"
+      },
+      {
+        "id": 9,
+        "type": "sale",
+        "title": "Lakefront Cottage",
+        "description": "A cozy 2-bedroom cottage with stunning lake views.",
+        "price": 3500,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "squareFootage": 1000,
+        "images": "/images/property9.jpg"
+      },
+      {
+        "id": 10,
+        "type": "rent",
+        "title": "Urban Studio",
+        "description": "A trendy studio apartment in the heart of the city.",
+        "price": 9100,
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFootage": 500,
+        "images": "/images/property10.jpg"
+      },
+      {
+        "id": 11,
+        "type": "rent",
+        "title": "City Center Apartment",
+        "description": "A spacious 2-bedroom apartment in the city center.",
+        "price": 1800,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFootage": 1200,
+        "images": "/images/property11.jpg"
+      },
+      {
+        "id": 12,
+        "type": "lease",
+        "title": "Luxury Penthouse",
+        "description": "A luxurious 3-bedroom penthouse with stunning city views.",
+        "price": 7500,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "squareFootage": 2500,
+        "images": "/images/property12.jpg"
+      },
+      {
+        "id": 13,
+        "type": "sale",
+        "title": "Country Estate",
+        "description": "A beautiful 6-bedroom country estate with acres of land.",
+        "price": 4100,
+        "bedrooms": 6,
+        "bathrooms": 4,
+        "squareFootage": 6000,
+        "images": "/images/property13.jpg"
+      },
+      {
+        "id": 14,
+        "type": "rent",
+        "title": "Studio Apartment",
+        "description": "A cozy studio apartment with a modern design.",
+        "price": 3100,
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFootage": 550,
+        "images": "/images/property14.jpg"
+      },
+      {
+        "id": 15,
+        "type": "lease",
+        "title": "Beach House",
+        "description": "A beautiful 3-bedroom beach house with ocean views.",
+        "price": 4500,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFootage": 2000,
+        "images": "/images/property15.jpg"
+      },
+      {
+        "id": 16,
+        "type": "sale",
+        "title": "Family Home",
+        "description": "A spacious 4-bedroom family home with a large backyard.",
+        "price": 5900,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "squareFootage": 2400,
+        "images": "/images/property16.jpg"
+      },
+      {
+        "id": 17,
+        "type": "rent",
+        "title": "Penthouse Suite",
+        "description": "A luxurious 2-bedroom penthouse suite with stunning city views.",
+        "price": 3500,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "squareFootage": 1800,
+        "images": "/images/property17.jpg"
+      },
+      {
+        "id": 18,
+        "type": "lease",
+        "title": "Ski Chalet",
+        "description": "A cozy 3-bedroom ski chalet in the mountains.",
+        "price": 4000,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFootage": 2200,
+        "images": "/images/property18.jpg"
+      },
+      {
+        "id": 19,
+        "type": "sale",
+        "title": "Vineyard Estate",
+        "description": "A picturesque 5-bedroom vineyard estate with a wine cellar.",
+        "price": 6200,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "squareFootage": 5000,
+        "images": "/images/property19.jpg"
+      },
+      {
+        "id": 20,
+        "type": "rent",
+        "title": "Downtown Condo",
+        "description": "A modern 1-bedroom condo in the heart of downtown.",
+        "price": 1500,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "squareFootage": 800,
+        "images": "/images/property20.jpg"
+      },
+      {
+        "id": 21,
+        "type": "lease",
+        "title": "Golf Course Home",
+        "description": "A beautiful 4-bedroom home overlooking the golf course.",
+        "price": 4200,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "squareFootage": 2800,
+        "images": "/images/property21.jpg"
+      }
+    ]
+}

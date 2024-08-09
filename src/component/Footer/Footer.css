@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjust this value based on your header height */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 2rem;
+  background: #6082B6;
+  /* background: linear-gradient(to bottom, #FF99CC, #CCCCFF); */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-top: 2px solid #333;
+  animation: border-shine 2s infinite;
+  min-height: 200px; /* Ensure it has a minimum height */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Ensure all sections align at the top */
+}
+
+.footer-navigation,
+.footer-guide,
+.footer-property,
+.footer-social-media {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.footer-navigation h4,
+.footer-guide h4,
+.footer-property h4,
+.footer-social-media h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  animation: shimmer 2s infinite;
+}
+
+.footer-navigation ul,
+.footer-guide ul,
+.footer-property ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-navigation li,
+.footer-guide li,
+.footer-property li {
+  margin-bottom: 0.25rem;
+}
+
+.footer-navigation .nav-link,
+.footer-guide .nav-link,
+.footer-property .nav-link {
+  color: #D19E00;
+  text-decoration: none;
+}
+
+.footer-navigation .nav-link:hover,
+.footer-guide .nav-link:hover,
+.footer-property .nav-link:hover {
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px purple;
+}
+
+.footer-navigation h4:hover,
+.footer-guide h4:hover,
+.footer-property h4:hover,
+.footer-social-media h4:hover {
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px purple;
+}
+
+.footer-social-media-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+  color: #D19E00;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  width: 100%;
+  margin-top: 1rem;
+  color: #D19E00;
+}
+
+.footer-bottom p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300px;
+}
+
+@keyframes shimmer {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-5px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@keyframes border-shine {
+  0% {
+      border-color: #333;
+  }
+  50% {
+      border-color: #555;
+  }
+  100% {
+      border-color: #333;
+  }
+}

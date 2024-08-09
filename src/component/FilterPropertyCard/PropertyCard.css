@@ -1,0 +1,160 @@
+/* PropertyCard.css */
+
+.property-card9 {
+  display: flex;
+  flex-direction: column;
+  background: #7393B3;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 16px;
+  margin-top: 3rem;
+}
+
+.property-card:hover9 {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.property-images9 {
+  display: flex;
+  overflow-x: auto;
+}
+
+.property-image9 {
+  flex: 0 0 auto;
+  width: 35%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.property-image9:hover {
+  transform: scale(1.05);
+}
+
+.property-details9 {
+  padding: 16px;
+}
+
+.property-title9 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.property-price9 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff5722;
+  margin: 8px 0;
+}
+
+.property-location9,
+.property-type9,
+.property-bedrooms9,
+.property-bathrooms9,
+.property-square-footage9 {
+  font-size: 16px;
+  margin: 4px 0;
+  color: #757575;
+}
+
+.property-amenities9 {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.property-amenities9 li {
+  background-color: #e0f7fa;
+  margin: 4px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #00796b;
+}
+
+.property-description9 {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #424242;
+}
+
+.property-contact9 {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #424242;
+}
+
+.view-details-button9 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 16px;
+  background-color: #03a9f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-details-button9:hover {
+  background-color: #0288d1;
+}
+
+.virtual-tour-link9 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 8px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.virtual-tour-link9:hover {
+  background-color: #388e3c;
+}
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

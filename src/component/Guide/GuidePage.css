@@ -1,0 +1,78 @@
+.guide-page {
+    max-width: cover;
+    background: #7393B3;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .guide-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .guide-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .guide-title::before,
+  .guide-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    width: 50%;
+    height: 3px;
+    background-color: #ff6600;
+  }
+  
+  .guide-title::before {
+    left: 0;
+  }
+  
+  .guide-title::after {
+    right: 0;
+  }
+  
+  .guide-content {
+    line-height: 1.8;
+  }
+  
+  .guide-section {
+    margin-bottom: 60px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .section-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #ff6600;
+    border-radius: 50%;
+  }
+  
+  .guide-footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+  }

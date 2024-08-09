@@ -1,0 +1,121 @@
+.property-list2 {
+  padding: 20px;
+  padding-top: 5rem;
+  background: #7393B3;
+}
+
+.property-list__title2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.property-list__grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.property-card2 {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.property-card2:hover {
+  transform: scale(1.05);
+}
+
+.property-card__image2 {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.property-card__image2:hover {
+  transform: scale(0.9); /* Zoom out effect */
+}
+
+.property-card__title2 {
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.property-card__price2 {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #888;
+}
+
+.property-modal2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.property-modal__content2 {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+
+.property-modal__close2 {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.property-modal__image2 {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.property-modal__image2:hover {
+  transform: scale(0.9); /* Zoom out effect */
+}
+
+.property-modal__title2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.property-modal__price2 {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.property-modal__description2 {
+  margin-bottom: 10px;
+}
+
+.property-modal__details2 {
+  font-size: 16px;
+  color: #888;
+}

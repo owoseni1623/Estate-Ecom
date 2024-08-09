@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Adjust this value based on your header height */
+  }
+.nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: #6082B6;
+  }
+  
+  .logo {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .car-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .car-image {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .car-image.hovered {
+    transform: translateX(250px);
+  }
+  
+  .navbar-items {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+    opacity: 0;
+  }
+  
+  .navbar-items.hovered {
+    transform: translateX(-250px);
+    opacity: 1;
+  }
+  
+  .nav-menu-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .menu-icon {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjust this value based on your header height */
+}
+.social-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ccc;
+  }
+  
+  .facebook:hover {
+    color: #3b5998;
+  }
+  
+  .twitter:hover {
+    color: #1da1f2;
+  }
+  
+  .instagram:hover {
+    color: #e1306c;
+  }
+  
+  .youtube:hover {
+    color: #ff0000;
+  }
+  @keyframes shimmer {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

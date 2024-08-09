@@ -1,0 +1,268 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjust this value based on your header height */
+}
+.slider-container {
+  width: 100%;
+  padding-top: 3.5rem;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  display: flex;
+  width: 200%;
+  height: 100%;
+  animation: slide 15s infinite linear;
+}
+
+.slide {
+  width: 25%;
+  height: 100%;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 1rem;
+}
+
+.next {
+  right: 1rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-25%);
+  }
+  58.33% {
+    transform: translateX(-25%);
+  }
+  66.66% {
+    transform: translateX(-50%);
+  }
+  91.66% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-75%);
+  }
+}
+
+/* HomePage2.css */
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.home-page-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin-bottom: 2rem;
+  background-color: #7393B3;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.home-page-content {
+  max-width: 600px;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reverse .home-page-content {
+  margin-right: 0;
+  margin-left: 2rem;
+}
+
+.home-page-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.home-page-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.home-page-content button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.home-page-content button:hover {
+  background-color: #555;
+}
+
+.home-page-image-container {
+  max-width: 500px;
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+.home-page-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.home-page-image:hover {
+  transform: scale(0.75); /* Adjust this value as desired */
+}
+
+.home-page-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.home-page-image img:hover {
+  transform: scale(1.1);
+}
+
+.info-overlay {
+  position: fixed;
+  padding-top: 5rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.info-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 80%;
+  text-align: center;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.small-image {
+  width: 100%;
+  height: auto;
+}
+
+.info-content img {
+  max-width: 400%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.info-content img:hover {
+  transform: scale(1.05);
+}
+
+.info-content button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.info-content button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .home-page-section {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .reverse {
+    flex-direction: column;
+  }
+
+  .home-page-content {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .reverse .home-page-content {
+    margin-left: 0;
+  }
+}
